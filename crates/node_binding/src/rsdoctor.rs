@@ -26,7 +26,7 @@ pub struct JsRsdoctorModule {
   pub modules: Vec<i32>,
   pub belong_modules: Vec<i32>,
   pub chunks: Vec<i32>,
-  pub issuer_path: Option<String>,
+  pub issuer_path: Option<Vec<JsStatsModuleIssuer>>,
 }
 
 impl From<RsdoctorModule> for JsRsdoctorModule {
