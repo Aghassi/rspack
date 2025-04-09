@@ -1,0 +1,27 @@
+{
+    "sourceMaps": "inline",
+    "jsc": {
+        "parser": {
+            "syntax": "ecmascript",
+            "jsx": true,
+            "tsx": false
+        },
+        "transform": {
+            "react": {
+                "runtime": "automatic",
+                "refresh": true
+            },
+            "hidden": {
+                "jest": true
+            }
+        }
+    },
+    "module": {
+        "type": "es6"
+    },
+    "env": {
+        "path": ".browserslistrc"
+    },
+    "isModule": true,
+    "minify": false
+}
