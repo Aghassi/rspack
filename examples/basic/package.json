@@ -1,12 +1,15 @@
 {
     "dependencies": {
-        "@rspack/cli": "1.2.7",
-        "@rspack/core": "1.2.7",
+        "@rspack/cli": "1.3.0",
+        "@rspack/core": "1.3.0",
         "@rspack/dev-server": "1.0.10",
         "react": "18.3.1",
         "react-dom": "18.3.1",
         "@rspack/plugin-react-refresh": "1.0.1",
         "@swc/core": "1.3.37",
         "@swc/cli": "0.6.0"
+    },
+    "scripts": {
+        "dev": "pnpm swc ./index.jsx ./worker.jsx ./lib.mjs -d build && rspack serve"
     }
 }

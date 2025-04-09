@@ -1,3 +1,0 @@
-console.log("Debugging Rspack");
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL2xpYi5tanMiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coXCJEZWJ1Z2dpbmcgUnNwYWNrXCIpO1xuIl0sIm5hbWVzIjpbImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiJBQUFBQSxRQUFRQyxHQUFHLENBQUMifQ==
